@@ -29,7 +29,7 @@ h2 {
     font-style: italic;
 }
 
-img {
+.songs img {
     width: 30px;
     height: 30px;
 }
@@ -68,6 +68,24 @@ img {
     border-bottom: 1px black solid;
     border-right: 1px black solid;
     width: 500px;
+    text-align: center;
+}
+
+.right img {
+    height: 200px;
+    width: 150px;
+    position: relative;
+    top: 40px;
+}
+
+.right audio {
+    position: absolute;
+    top: 70%;
+    right: 10%;
+}
+
+audio {
+    margin-top: 10px;
 }
 
 .hidden {

@@ -7,49 +7,75 @@
   <body>
     <div class="left">
       <h2>Tamil Songs</h2>
-      <div class="1-song songs">
-        <img src="/image/images.jpg" alt="image" />
+      <div class="1-song songs" onclick="clickedSong(1)">
+        <img src="/image/leo.jpg" alt="image" />
         <p>Badass - Anirudh Ravichandhar</p>
       </div>
-      <div class="2-song songs">
-        <img src="/image/images.jpg" alt="image" />
+      <div class="2-song songs" onclick="clickedSong(2)">
+        <img src="/image/leo.jpg" alt="image" />
         <p>Naa Ready - Anirudh Ravichandhar</p>
       </div>
-      <div class="3-song songs">
-        <img src="/image/images.jpg" alt="image" />
+      <div class="3-song songs" onclick="clickedSong(3)">
+        <img src="/image/leo.jpg" alt="image" />
         <p>Lokiverse 2.0 - Anirudh Ravichandhar</p>
       </div>
-      <div class="4-song songs">
-        <img src="/image/jailer.jpg" alt="image" />
+      <div class="4-song songs" onclick="clickedSong(4)">
+        <img src="/image/leo.jpg" alt="image" />
         <p>Jailer Theme - Anirudh Ravichandhar</p>
       </div>
-      <div class="5-song songs">
+      <div class="5-song songs" onclick="clickedSong(5)">
         <img src="/image/jailer.jpg" alt="image" />
         <p>Hukum - Anirudh Ravichandhar</p>
       </div>
-      <div class="6-song songs">
+      <div class="6-song songs" onclick="clickedSong(6)">
         <img src="/image/kok.jpg" alt="image" />
         <p>Kotha Raja - Jakes Bejoy</p>
       </div>
-      <div class="7-song songs">
+      <div class="7-song songs" onclick="clickedSong(7)">
         <img src="/image/salaar.jpg" alt="image" />
         <p>Sound of Salaar - Ravi Basrur</p>
       </div>
-      <div class="8-song songs">
+      <div class="8-song songs" onclick="clickedSong(8)">
         <img src="/image/hinanna.jpg" alt="images" />
         <p>Odiyamma - Hesham Abdul Wahab</p>
       </div>
     </div>
+
     <div class="right">
       <h2>Song</h2>
-      <audio src="s1.mp3" controls class="hidden song-1"></audio>
-      <audio src="s2.mp3" controls class="hidden song-2"></audio>
-      <audio src="s3.mp3" controls class="hidden song-3"></audio>
-      <audio src="s4.mp3" controls class="hidden song-4"></audio>
-      <audio src="s5.mp3" controls class="hidden song-5"></audio>
-      <audio src="s6.mp3" controls class="hidden song-6"></audio>
-      <audio src="s7.mp3" controls class="hidden song-7"></audio>
-      <audio src="s8.mp3" controls class="hidden song-8"></audio>
+      <div class="song-1 mainSong hidden">
+        <img src="/image/leo.jpg" alt="main song image" /><br />
+        <audio src="/music/s1.mp3" controls></audio>
+      </div>
+      <div class="song-2 mainSong hidden">
+        <img src="/image/leo.jpg" alt="main song image" />
+        <audio src="/music/s2.mp3" controls></audio>
+      </div>
+      <div class="song-3 mainSong hidden">
+        <img src="/image/leo.jpg" alt="main song image" />
+        <audio src="/music/s3.mp3" controls></audio>
+      </div>
+      <div class="song-4 mainSong hidden">
+        <img src="/image/jailer.jpg" alt="main song image" />
+        <audio src="/music/s4.mp3" controls></audio>
+      </div>
+      <div class="song-5 mainSong hidden">
+        <img src="/image/jailer.jpg" alt="main song image" />
+        <audio src="/music/s5.mp3" controls></audio>
+      </div>
+      <div class="song-6 mainSong hidden">
+        <img src="/image/kok.jpg" alt="main song image" />
+        <audio src="/music/s6.mp3" controls></audio>
+      </div>
+      <div class="song-7 mainSong hidden">
+        <img src="/image/salaar.jpg" alt="main song image" />
+        <audio src="/music/s7.mp3" controls></audio>
+      </div>
+      <div class="song-8 mainSong hidden">
+        <img src="/image/hinanna.jpg" alt="main song image" />
+        <audio src="/music/s8.mp3" controls></audio>
+      </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
