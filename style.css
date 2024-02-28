@@ -88,6 +88,27 @@ audio {
     margin-top: 10px;
 }
 
+.mainSong button {
+    border: none;
+    background-color: transparent;
+}
+
+.mainSong button img {
+    position: relative;
+    top: 80px;
+    left: 12px;
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: outset 2px rgb(87, 83, 83);
+}
+
+.mainSong button img:hover {
+    cursor: pointer;
+    background-color: rgb(105, 103, 103);
+}
+
 .hidden {
     display: none;
 }
