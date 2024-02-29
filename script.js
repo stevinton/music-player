@@ -17,3 +17,9 @@ const clickedSong = (val) => {
 const removeExist = (t) => {
     t.classList.toggle("hidden");
 };
+
+const back = (val) =>{
+    val -= val
+    console.log(val)
+    // document.querySelector(`song-${va}`)
+}
